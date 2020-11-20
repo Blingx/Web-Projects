@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: darkslategrey;
+}
+
+
+.main-title {
+    font-size: 100px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    background-color: darkslategrey);
+    padding: 0 0 15px 0px;
+
+}
+
+.s-title {
+   color: hotpink; 
+   font-weight: bolder;
+}
+
+.g-title {
+    color: lawngreen;
+    font-weight: bolder;
+    
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    list-style: none;
+    padding: 15px 0 15px 0;
+    margin: 0;
+    
+}
+
+.nav-items {
+    display: flex;
+    flex: 1 1 1;
+    border: none;
+    width: 2fr;
+    padding: 0 15px 0 15px;
+    margin: 0 0 0 0;
+}
+
+
+
+/*link styles*/
+
+a:visited {
+    color: white;
+
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: lawngreen;
+}
+
+a:active {
+    color: hotpink;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*link styles end*/
+
+.gallery {
+
+    border:none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.377);
+    border-top: 2px solid white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.596);
+    padding: 15px 0 15px 0;
+
+}
+
+.gallery-item {
+    
+    border: 3px solid rgba(0, 0, 255, 0.034);
+    list-style: none;
+    margin: 0;
+}
+
+img {
+    display: flex;
+    flex: 1 1 300px;
+    height: 250px;
+    border: 1px solid black;
+    /*max-height: 40vh;
+    min-width: 40vw;*/
+    
+}
+
+img:hover {
+    border: 2px solid white;
+}
+
+
+ 
+

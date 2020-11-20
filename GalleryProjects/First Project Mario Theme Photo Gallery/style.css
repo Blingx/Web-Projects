@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(255, 166, 0, 0.247), white,rgba(255, 166, 0, 0.158) );
+}
+
+
+
+main {
+    /*background: linear-gradient(40deg, #f2a541,#5d7af2 );*/
+    background-color: rgba(7, 67, 146, 0.103);
+}
+
+.header-styles {
+    /*background-image: url("Images/Header/Headimage.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;*/
+    margin: 0 0 -15px 0;
+    padding: 0 0 0 0;
+
+    
+    
+}
+
+.main-brand {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+    height: 15%;
+    
+    
+}
+
+.logo {
+    margin: 0;
+    padding: -10px;
+}
+
+
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0px 0;
+    margin: -70px 0 0 0;
+    height: 25%;
+}
+
+.box {
+    padding: 68px;
+    margin: 25px 25px -10px 25px;
+    list-style: none;
+}
+
+.box:hover {
+    rotate: 15deg;
+   
+ 
+}
+
+
+.gallery-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -25px 0 0 0;
+    padding: 50px;
+    height: 100%;
+    border-top: 2px solid rgba(0, 0, 0, 0.089);
+}
+
+
+
+
+.gallery-item {
+    display: flex;
+    flex: 0 0 0;
+    margin: 20px;
+    padding:0 0 0 0;
+    border: 2px solid black;
+   
+    
+}
+
+.gallery-item:hover {
+    border:3px solid black;
+}
+
+
+
+
